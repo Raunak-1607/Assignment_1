@@ -20,8 +20,6 @@ nav{
 #logo{
     height:40px;
     width: 130px;
-    /* border: 1px solid black; */
-    /* margin-left: 30px; */
     background-image: url(./assets/logo.png);
     background-size: cover;
 
@@ -48,6 +46,7 @@ nav{
     color: white;
     font-weight: bolder;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 /* ------------------- */
@@ -157,6 +156,105 @@ nav{
 
 /* --------------------------- */
 
+#subscription{
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+}
 
 
+#subscription h1{
+    font-size: 55px;
+}
+#P{
+    color: #575757;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.box2{
+     width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: left;
+    transition: 0.3s;
+    
+}
+#container2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box2 li{
+    margin-top: 16px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.box2 p{
+    color: #575757;
+}
+
+.btn1{
+    position: relative;
+    top: 20px;
+    /* left: 35%; */
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid royalblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.line{
+    width:100%;
+    background-color: #a6a4a4;
+    height: 2px;
+}
+
+.box2:hover{
+    background-color: rgba(0, 0, 0, 0.848);
+    color: white;
+    transform: translateY(-7px);
+}
+.btn1:hover{
+    color:white;
+    background-color: royalblue;
+}
+/* ---------Footer---------- */
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #121F2E;
+   
+    
+}
+#footer_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+#link a{
+    font-size: 20px;
+}
+
+#line2{
+    width:100%;
+    background-color: #717070;
+    height: 1px;
+}
+
+footer p{
+    color: whitesmoke;
+    position: relative;
+    top: 20px;
+    margin-left: 35px;
+}
 
